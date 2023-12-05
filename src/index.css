@@ -1,0 +1,244 @@
+
+/* corpo*/
+
+body {
+  
+  background-image: url(./components/img/portal.jpg);
+}
+
+
+/* header */
+
+
+.active{
+
+border-bottom: 2px solid #6e0ca7ec;
+font-weight: bold;
+color: #6e0ca7ec !important;
+
+}
+
+.navbar {
+
+  background-color: #6e0ca7ec;
+  
+ 
+}
+.container{
+
+  width: auto;
+  
+}
+
+#logo{
+  width: auto;
+  height: 100px;
+}
+.navbar-brand {
+  color: rgb(255, 255, 255);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  
+}
+
+
+/*Filtro*/
+
+.accordion{
+
+  margin-top: 0
+  
+   
+
+  }
+
+  #errorpersonagem {
+
+   text-align: center;
+   color: white;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size: 40pt;
+   
+  }
+
+/*personagem*/
+
+.card {
+
+  background-color: rgb(0, 0, 0);
+  padding: 5px;
+  min-width: 200px;
+  border-radius: 10px;
+  transition: box-shadow 0.3s ease;
+
+}
+
+
+.img-fluid{
+
+  transition: all ease-in-out 0.3s;
+
+}
+
+
+
+.img-fluid:hover{
+
+  transform: scale(1.2);
+  transition: all ease-in-out 0.3s;
+
+}
+
+.row {
+
+  display: flex;
+  justify-content:right;
+  padding-left: 20px; 
+ 
+  
+
+
+}
+
+
+.card:hover{
+
+  box-shadow: 0 0 10px 10px rgba(4, 146, 11, 0.3);
+
+
+}
+
+.card-title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+   
+}
+
+hr{
+
+  color: white;
+  
+}
+
+.status {
+
+  color: white;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+
+}
+
+.genero {
+
+  color: white;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.especie{
+
+  color: white;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.localizacao {
+
+  color: white;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+/* paginação */
+
+.pagination{
+
+  justify-content:right
+
+}
+.page-item{
+
+  align-items: center;
+}
+.page-link {
+  background-color: rgb(255, 255, 255);
+
+}
+
+/*Barra de busca nome*/
+.filtrar {
+	width: 100%;
+	max-width: 70rem;
+	margin: 0 auto;
+	margin-bottom: 0.1rem;
+  
+}
+
+.buscar{
+
+  position:absolute;
+  top: 130px;
+  right: 5px;
+  border-radius: 20px;
+  color: rgb(255, 255, 255);
+  background-color: blueviolet;
+
+
+}
+
+.buscar:hover{
+
+  background-color: rgb(0, 128, 111);
+
+
+}
+
+
+input {
+	height: 2.5rem;
+	border: none;
+	border-radius: 0.5rem;
+	padding: 0 1rem;
+	outline: var(--color-primary);
+	width: 100%;
+}
+
+.page-link{
+
+color: green;
+
+}
+
+#limpar {
+
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  padding-right: 20px;
+  padding-left: 20px;
+  width: 12.5%;
+  background-color: rgb(123, 3, 170);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#limpar:hover{
+
+
+  background-color: rgb(0, 128, 111);
+  box-shadow: 0 0 10px 5px rgba(4, 146, 11, 0.3);
+
+
+}
+
+
+input[type="radio"]{
+  display:none
+}
+
+.x:checked + label{
+
+  color: white;
+  background-color: #0b5ed7;
+
+}
+

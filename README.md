@@ -11,7 +11,7 @@ Antes de começar, verifique se você tem o Node.js instalado na sua máquina.
 1. Clone este repositório:
 
     ```
-    git clone [https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/Crystal50887/RICKANDMORTY)
+    git clone [https://github.com/Crystal50887/RICKANDMORTY
     ```
 
 2. Acesse o diretório do projeto:
